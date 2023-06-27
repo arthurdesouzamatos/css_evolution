@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6abd55;
+}
+
+.avestruz {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.avestruz *{
+    position: absolute;
+}
+
+.avestruz-body {
+    width: 40%;
+    height: 30%;
+    background: #000;
+    border-radius: 70% 70% 60% 60%;
+    top: 37%;
+    left: 25%;
+}
+
+.avestruz-shoulder {
+    width: 7%;
+    height: 9%;
+    background: #000;
+    border-radius: 40% 70%;
+    top: 40%;
+    left: 60%;
+    transform: rotate(40deg);
+}
+
+.avestruz-neck {
+    width: 3.5%;
+    height: 25%;
+    background: #000;
+    border-radius: 20% 10%;
+    top: 18%;
+    left: 61%;
+    transform: rotate(-12deg);
+}
+
+.avestruz-head {
+    width: 8%;
+    height: 5%;
+    background: #000;
+    border-radius: 60% 65%;
+    top: 15%;
+    left: 59%;
+}
+
+.avestruz-beak {
+    width: 5%;
+    height: 2%;
+    background: #000;
+    border-radius: 60% 60%;
+    top: 17%;
+    left: 65%;
+    transform: rotate(5deg);
+    
+}
+
+.avestruz-tail {
+    width: 0;
+    height: 0;
+    border-radius: 50% 30% 30%;
+    border-bottom: 60px solid #000;
+    border-left: 30px solid transparent;
+    border-right: 10px solid transparent;
+    transform: rotate(60deg);
+    top: 42%;
+    left: 17%;
+}
+
+.avestruz-thigh {
+    width: 7%;
+    height: 9%;
+    background: #000;
+    border-radius: 70% 70%;
+    top: 62%;
+    left: 39%;
+  
+}
+
+.avestruz-leg {
+    width: 2%;
+    height: 23%;
+    background: #000;
+    top: 70%;
+    left: 41.4%;
+
+}
+
+.avestruz-foot {
+    width: 6%;
+    height: 2%;
+    background: #000;
+    border-radius: 40% 40%;
+    top: 92%;
+    left: 40%;
+}
