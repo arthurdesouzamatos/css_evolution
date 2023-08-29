@@ -1,0 +1,87 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 65% 30% 65% 10%;
+    width: 300px;
+    height: 300px;
+
+    transform: rotate(-45deg);
+}
+
+.cabeca {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    border-radius: 45% 25% 45% 10%;
+    width: 220px;
+    height: 220px;
+    top: 20px;
+    left: -20px;
+}
+
+.pescoco {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    border-radius: 50% 50%;
+    width: 50px;
+    height: 50px;
+    top: 90%;
+    left: -13%;
+
+}
+
+.face {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50% 25% 50% 40%;
+    width: 150px;
+    height: 150px;
+    top: -22px;
+    left: 22px;
+}
+
+.eye1 {
+    position: relative;
+    background: darkred;
+    width: 35px;
+    height: 35px;
+    border-radius: 5% 100%;
+    top: 10px;
+    left: 42px;
+}
+
+.eye2 {
+    position: relative;
+    background: darkred;
+    width: 35px;
+    height: 35px;
+    border-radius: 10% 100%;
+    top: -50px;
+    left: -50px;
+}
